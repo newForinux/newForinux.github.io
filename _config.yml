@@ -49,6 +49,8 @@ author:
 menu:
   - title:             Blog
     url:               /blogs/
+  - title:             Project
+    url:               /projects/
   - title:             Algorithm
     url:               /algorithm/
   - title:             About
