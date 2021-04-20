@@ -7,6 +7,9 @@ sitemap: false
 permalink: /projects/
 ---
 
+💎 프로젝트를 진행하면서 겪은 삽질의 기록과 공부했던 내용을 정리하는 공간 
+{:.note}
+
 ## 프론트엔드 프로젝트
 
 
