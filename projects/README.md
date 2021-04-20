@@ -16,9 +16,9 @@ permalink: /projects/
 
 ## 백엔드 프로젝트
 
-* [FIRST STEP]{:.heading.flip-title}
+* [1. 스프링부트 프로젝트 생성]{:.heading.flip-title}
 
 
 
 
-[FIRST STEP]: spring-boot-1.md
+[1. 스프링부트 프로젝트 생성]: spring-boot-1.md
