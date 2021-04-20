@@ -71,3 +71,36 @@ Gradle 프로젝트로 생성하고, 종속성에 개발 툴과 `Spring Web`을 
 <br>
 
 저렇게 종속성을 추가하고 GENERATE 버튼을 누르면 프로젝트 zip 파일이 생성된다.
+
+<br>
+
+`IntelliJ`에서 이 파일을 임포트하면 처음에 종속성 등을 다운받느라고 초기 설정에 시간이 꽤 걸린다.
+
+<br><br>
+
+![Initial boot](../assets/img/blog/backend/initial_boot.PNG){:.border.lead width="907" height="579" loading="lazy"}
+
+<br>
+프로젝트의 구조는 다음과 같고, `IntelliJ` 상단의 Run 버튼이나 main 메소드 옆 Run 버튼으로 실행할 수 있다.
+
+<br><br>
+
+![Port](../assets/img/blog/backend/port.png){:.border.lead width="1357" height="72" loading="lazy"}
+
+<br>
+실행하면 스프링 부트가 8080 포트로 실행되며, `localhost:8080`으로 접속하면 화이트 라벨 에러가 성공적으로~~~(?)~~~ 뜬다.
+
+즉, 내장된 톰캣 서버를 실행하면서 스프링 부트가 동작하는 방식이다.
+
+`React`가 `localhost:3000`으로 실행되는 것처럼.
+
+
+<br><br>
+
+
+처음 작디작은 단계를 지났다.
+
+강의를 따라가면서 계속 공부하고, 프로젝트에 적용시켜
+
+실제로 교내 커뮤니티 프로젝트에 적합하도록 설계해야겠다.😃
+
