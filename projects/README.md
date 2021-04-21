@@ -17,8 +17,10 @@ permalink: /projects/
 ## 백엔드 프로젝트
 
 * [1. 스프링부트 프로젝트 생성]{:.heading.flip-title}
+* [2. 정적 페이지 생성, Controller 맛보기]{:.heading.flip-title}
 
 
 
 
 [1. 스프링부트 프로젝트 생성]: spring-boot-1.md
+[2. 정적 페이지 생성, Controller 맛보기]: spring-boot-2.md
