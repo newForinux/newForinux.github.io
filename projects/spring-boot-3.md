@@ -103,7 +103,7 @@ MVC 패턴에서는 각자 역할에 집중하여 효율성을 높인다.
 
 <br><br>
 
-![MVC 1](../assets/img/blog/backend/mvc_1.PNG){:.border.lead width="975" height="381" loading="lazy"}
+![MVC 1](../assets/img/blog/backend/mvc-1.PNG){:.border.lead width="975" height="381" loading="lazy"}
 
 
 <strong>화이트라벨 에러 페이지가 뜬다.</strong>
@@ -129,7 +129,7 @@ url 끝에 `?{attribute_name}={parameter}` 형식으로 매개변수를 넣어 �
 
 <br>
 
-![MVC 2](../assets/img/blog/backend/mvc_2.PNG){:.border.lead width="782" height="119" loading="lazy"}
+![MVC 2](../assets/img/blog/backend/mvc-2.PNG){:.border.lead width="782" height="119" loading="lazy"}
 
 <br>
 
@@ -188,7 +188,7 @@ public class DecomoController {
 
 <br>
 
-![MVC 3](../assets/img/blog/backend/mvc_3.PNG){:.border.lead width="736" height="196" loading="lazy"}
+![MVC 3](../assets/img/blog/backend/mvc-3.PNG){:.border.lead width="736" height="196" loading="lazy"}
 
 <br>
 
@@ -263,7 +263,7 @@ trivialObject 클래스는 생성자를 통해 private field의 값을 받고,
 
 <br>
 
-![MVC 4](../assets/img/blog/backend/mvc_4.PNG){:.border.lead width="880" height="190" loading="lazy"}
+![MVC 4](../assets/img/blog/backend/mvc-4.PNG){:.border.lead width="880" height="190" loading="lazy"}
 
 
 그럼 `key-value` 형식으로 출력된다.
