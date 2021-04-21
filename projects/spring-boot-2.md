@@ -23,7 +23,7 @@ sitemap: false
 
 
 ~~~html
-// file: 'index.html'
+<!-- file: 'index.html' -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -125,7 +125,7 @@ public class DecomoController {
 <br>
 
 ~~~html
-// file: 'decomo.html'
+<!-- file: 'decomo.html' -->
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
@@ -149,7 +149,7 @@ public class DecomoController {
 <br>
 
 ~~~html
-// file: 'index.html'
+<!-- file: 'index.html' -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
