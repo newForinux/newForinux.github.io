@@ -21,7 +21,7 @@ sitemap: false
 <br>
 
 ~~~java
-file: 'Member.java'
+// file: 'Member.java'
 package com.thecomo.democomo.domain;
 
 public class Member {
@@ -266,7 +266,7 @@ import static org.assertj.core.api.Assertions.*;
 
 <br>
 
-![TDD PASS](../assets/img/blog/backend/tdd_pass.png){:.border.lead width="825" height="344" loading="lazy"}
+![TDD PASS](../assets/img/blog/backend/tdd_pass.PNG){:.border.lead width="825" height="344" loading="lazy"}
 
 <br>
 
@@ -274,7 +274,7 @@ import static org.assertj.core.api.Assertions.*;
 
 <br><br>
 
-![TDD FAIL](../assets/img/blog/backend/tdd_failed.png){:.border.lead width="843" height="350" loading="lazy"}
+![TDD FAIL](../assets/img/blog/backend/tdd_failed.PNG){:.border.lead width="843" height="350" loading="lazy"}
 
 <br>
 
