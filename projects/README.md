@@ -19,6 +19,7 @@ permalink: /projects/
 * [1. 스프링부트 프로젝트 생성]{:.heading.flip-title}
 * [2. 정적 페이지 생성, Controller 맛보기]{:.heading.flip-title}
 * [3. 정적 페이지, MVC, API]{:.heading.flip-title}
+* [4. 회원 도메인, 레포지토리, 동시성 문제, TDD]{:.heading.flip-title}
 
 
 
@@ -26,3 +27,4 @@ permalink: /projects/
 [1. 스프링부트 프로젝트 생성]: spring-boot-1.md
 [2. 정적 페이지 생성, Controller 맛보기]: spring-boot-2.md
 [3. 정적 페이지, MVC, API]: spring-boot-3.md
+[4. 회원 도메인, 레포지토리, 동시성 문제, TDD]: spring-boot-4.md
