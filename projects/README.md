@@ -11,7 +11,8 @@ permalink: /projects/
 {:.note}
 
 ## 백엔드 프로젝트
-
+* [0. 더커모 프로젝트의 출발]{:.heading.flip-title}
+* [1. 데이터베이스 설계]{:.heading.flip-title}
 
 
 ## 백엔드 공부
@@ -28,3 +29,6 @@ permalink: /projects/
 [2. 정적 페이지 생성, Controller 맛보기]: spring-boot-2.md
 [3. 정적 페이지, MVC, API]: spring-boot-3.md
 [4. 회원 도메인, 레포지토리, 동시성 문제, TDD]: spring-boot-4.md
+
+[0. 더커모 프로젝트의 출발]: thecomo-1.md
+[1. 데이터베이스 설계]: thecomo-2.md
