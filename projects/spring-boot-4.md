@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 4. 회원 도메인, 레포지토리, 동시성 문제, TDD
+title: 4. 회원 도메인, 레포지토리, 동시성 문제, 유닛 테스트
 description: >
   깊고 좁은 백엔드 삽질
 sitemap: false
@@ -154,20 +154,33 @@ public class MemoryMemberRepository implements MemberRepository {
 
 <br><br>
 
-## 테스트 주도 개발(Test-Driven Development)?!
+## 테스트 주도 개발, 유닛 테스트?
 
 
 이렇게 만들고 나서, 잘 동작하는지 확인하고 싶다.
 
 웹으로 확인할 수는 있겠지만, 다른 좋은 방법이 없을까?
 
-이 때 우리는 테스트 케이스를 만들 수 있다. 이것이 현업에서도 그렇게 중요하다는 테스트 주도 개발..!
+이 때 우리는 테스트 케이스를 만들 수 있다. ~~이것이 현업에서도 그렇게 중요하다는 테스트 주도 개발..!~~
+
+
+🔥 JUnit 기반으로 우리가 진행했던 것은 TDD가 아닌 <strong>유닛 테스트</strong>다.
+
+테스트 주도 개발은 본격적인 개발 전 자동화된 테스트 케이스를 <strong>미리</strong> 작성하며,
+
+이 TC를 통과하기 위한 코드를 작성하면서 개발하는 개발 방식을 말한다.
+
+유닛 테스트는 특정 모듈 / 컴포넌트가 의도대로 동작하는지 확인하기 위한 검증 방식이다.
+
+둘이 헷갈리지 말자🤔
+
+<br>
 
 테스트 케이스를 작성해서, 코드를 코드로 검증할 수 있다!
 
 <br>
 
-![TDD](../assets/img/blog/backend/tdd.png){:.border.lead width="610" height="417" loading="lazy"}
+![UT](../assets/img/blog/backend/tdd.png){:.border.lead width="610" height="417" loading="lazy"}
 
 <br>
 
@@ -175,7 +188,7 @@ public class MemoryMemberRepository implements MemberRepository {
 
 <br>
 
-![TDD Detail](../assets/img/blog/backend/tdd_detail.png){:.border.lead width="696" height="255" loading="lazy"}
+![UT Detail](../assets/img/blog/backend/tdd_detail.png){:.border.lead width="696" height="255" loading="lazy"}
 
 <br>
 
@@ -266,7 +279,7 @@ import static org.assertj.core.api.Assertions.*;
 
 <br>
 
-![TDD PASS](../assets/img/blog/backend/tdd_pass.PNG){:.border.lead width="825" height="344" loading="lazy"}
+![UT PASS](../assets/img/blog/backend/tdd_pass.PNG){:.border.lead width="825" height="344" loading="lazy"}
 
 <br>
 
@@ -274,7 +287,7 @@ import static org.assertj.core.api.Assertions.*;
 
 <br><br>
 
-![TDD FAIL](../assets/img/blog/backend/tdd_failed.PNG){:.border.lead width="843" height="350" loading="lazy"}
+![UT FAIL](../assets/img/blog/backend/tdd_failed.PNG){:.border.lead width="843" height="350" loading="lazy"}
 
 <br>
 
@@ -285,7 +298,5 @@ import static org.assertj.core.api.Assertions.*;
 <br>
 
 이렇게 다양한 메소드를 테스트 케이스로 확인할 수 있어 오류를 미리 확인할 수도 있고, 디버깅하기 편할 것 같다.
-
-계속해서 TDD로 진행하는 습관을 들여야겠다✨
 
 <br>
