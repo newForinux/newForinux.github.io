@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 description: >
-  삽질의 완성은 잘 만든 프로젝트일지니
+  백엔드의 완벽한 삽질을 위해⚒
 sitemap: false
 permalink: /projects/
 ---
@@ -20,7 +20,7 @@ permalink: /projects/
 * [1. 스프링부트 프로젝트 생성]{:.heading.flip-title}
 * [2. 정적 페이지 생성, Controller 맛보기]{:.heading.flip-title}
 * [3. 정적 페이지, MVC, API]{:.heading.flip-title}
-* [4. 회원 도메인, 레포지토리, 동시성 문제, TDD]{:.heading.flip-title}
+* [4. 회원 도메인, 레포지토리, 동시성 문제, 유닛 테스트]{:.heading.flip-title}
 
 
 
@@ -28,7 +28,7 @@ permalink: /projects/
 [1. 스프링부트 프로젝트 생성]: spring-boot-1.md
 [2. 정적 페이지 생성, Controller 맛보기]: spring-boot-2.md
 [3. 정적 페이지, MVC, API]: spring-boot-3.md
-[4. 회원 도메인, 레포지토리, 동시성 문제, TDD]: spring-boot-4.md
+[4. 회원 도메인, 레포지토리, 동시성 문제, 유닛 테스트]: spring-boot-4.md
 
 [0. 더커모 프로젝트의 출발]: thecomo-1.md
 [1. 데이터베이스 설계]: thecomo-2.md
