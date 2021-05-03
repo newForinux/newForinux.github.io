@@ -13,6 +13,8 @@ permalink: /projects/
 ## 백엔드 프로젝트
 * [0. 더커모 프로젝트의 출발]{:.heading.flip-title}
 * [1. 데이터베이스 설계]{:.heading.flip-title}
+* [2. 사용자 가입 테스트하기]{:.heading.flip-title}
+
 
 
 ## 백엔드 공부
@@ -32,3 +34,4 @@ permalink: /projects/
 
 [0. 더커모 프로젝트의 출발]: thecomo-1.md
 [1. 데이터베이스 설계]: thecomo-2.md
+[2. 사용자 가입 테스트하기]: thecomo-3.md
