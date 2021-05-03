@@ -73,9 +73,7 @@ public class RegisterController {
 
 프론트엔드와 나눠서 작업하고 있지만, 테스트 겸 html 코드를 작성해 `resources/static`폴더에 넣고 실행할 것이다.
 
-`detail.html`과 `register.html`을 작성했지만, Thymeleaf 엔진을 따로 추가하지 않아 `<a href>` 코드가 먹히지 않길래
-  
-매뉴얼하게 `localhost:8080/register`로 입력해서 들어갔다.~~register.html만 사용했단 이야기~~
+`detail.html`과 `register.html`을 작성했지만, Thymeleaf 엔진을 따로 추가하지 않아 `<a href>` 코드가 먹히지 않길래 매뉴얼하게 `localhost:8080/register`로 입력해서 들어갔다.~~register.html만 사용했단 이야기~~
  
 <br>
 
@@ -177,7 +175,7 @@ public class RegisterService {
   
 <br>
 
-[Advice](../assets/img/blog/backend/advice.png){:.border.lead width="901" height="660" loading="lazy"}
+![Advice](../assets/img/blog/backend/advice.png){:.border.lead width="901" height="660" loading="lazy"}
 
 <br>
 
